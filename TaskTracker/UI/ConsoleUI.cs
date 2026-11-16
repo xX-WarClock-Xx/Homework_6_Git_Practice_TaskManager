@@ -240,6 +240,7 @@ namespace TaskTracker.UI
                 Console.WriteLine("\nНажмите любую клавишу для продолжения...");
                 Console.ReadKey();
             }
+        }
 
             private void ShowStatistics()
         {
@@ -292,5 +293,5 @@ namespace TaskTracker.UI
             }
         }
     }
-    }
+    
 }

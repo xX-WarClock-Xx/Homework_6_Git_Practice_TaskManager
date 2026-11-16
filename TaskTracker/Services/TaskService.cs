@@ -108,6 +108,7 @@ namespace TaskTracker.Services
             int total = tasks.Count;
             int doneCount = GetTasksByStatus(TaskStatus.Done).Count;
             return $"Всего задач: {total}, Завершено: {doneCount}";
+        }
 
         public List<TaskItem> GetTasksByPriority(TaskPriority priority)
         {
